@@ -1,0 +1,61 @@
+.w-40{
+    width: 40%;
+}
+.column{
+    width: 8.8rem ;
+}
+.next-btn{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.main-product{
+    width: 28rem;
+}
+.description{
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.first{
+    padding: 5rem 0rem;
+    
+}
+.icon{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.second h1{
+    font-size: 2rem;
+}
+.second-left{
+    margin-left: 6rem;
+}
+.product{
+    width: 20%;
+}
+.badges{
+    top: 0%;
+    right: 5%;
+    background-color: #86e186;
+    padding: 0.05rem 0.5rem;
+}
+.rating{
+    width: 50%;
+}
+.currency-unit{
+    padding-top: 0.4rem;
+}
+.blur {
+    color: rgb(161, 153, 153);
+    opacity: 100%;
+}
+#weight, #weight:focus-visible{
+    border: 0px;
+    color: rgb(109, 102, 102); 
+}
+.content{
+    background-image: url('../images/Chitietsanpham/background.png');
+    background-repeat: none;
+    background-size:cover;
+    padding-bottom: 4rem;
+}
+

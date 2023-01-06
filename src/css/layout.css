@@ -1,0 +1,57 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: 'SVNAthena';
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 66.67%;
+}
+.item{
+    padding: 1.5rem 1.5rem;
+}
+.item:last-child{
+padding-right: 0;
+}
+.item a{
+    font-size: 1rem;
+    color: #000;
+    font-weight: bold;
+}
+footer{
+    background-image: url(../images/Layout/Footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5rem;
+}
+.information{
+    width: 20%;
+}
+.information a, .information h4{
+    color: #60605d;
+    opacity: 100%;
+}
+.icon{
+    color: #60605d;
+    width: 30%;
+    padding: 0.25rem;
+    font-size: 2rem;
+}
+.blur {
+    color: rgb(161, 153, 153);
+    opacity: 100%;
+}
+@font-face {
+    font-family: 'SVNAthena';
+    src: url('../fonts/SVN-Athena_0.ttf');
+}
+@font-face {
+    font-family: 'SVNArtfulbeauty';
+    src: url('../fonts/SVN-Artful\ Beauty.ttf');
+}

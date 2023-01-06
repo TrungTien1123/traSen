@@ -1,0 +1,29 @@
+.w-67{
+    width: 67%;
+}
+.w-30{
+    width: 30%;
+}
+.direction{
+    color:rgb(109, 106, 106)
+}
+.banner img{
+    width: 100%;
+    height: 18rem;
+}
+.thumbnail{
+    width: 33.34%;
+}
+.post-title{
+    width: 60%;
+    word-wrap: break-word;
+}
+.content{
+    background-image: url(../images/Layout/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left-block h2{
+    padding: 2rem 0rem;
+    font-size: 2rem;
+}

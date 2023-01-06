@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/sanpham.css">
+</head>
+<body>
+    <header class=" d-flex justify-content-between container col-8 m-auto pt-3">
+        <div class="col-3 left-menu">
+            <img src="../images/Layout/Logo.png" alt="logo">
+        </div>
+        <div class="right-menu">
+            <ul class=" d-flex justify-content-between align-items-center ">
+                <li class="item"><a href="">TRANG CHỦ</a></li>
+                <li class="item"><a href="">GIỚI THIỆU</a></li>
+                <li class="item"><a href="">SẢN PHẨM</a></li>
+                <li class="item"><a href="">TIN TỨC</a></li>
+                <li class="item"><a href="">LIÊN HỆ</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="banner">
+            <img class="position-relative" src="../images/Sanpham/Banner.png" alt="">
+            <div class="title position-absolute">
+                <h1>SẢN PHẨM</h1>
+            </div>
+        </div>
+        <div class="content col-8 m-auto pt-4">
+            <p class="direction blur">Trang chủ > Sản phẩm</p>
+            <h2>Sản phẩm</h2>
+            <hr>
+            <div class="main-content d-flex justify-content-between">
+                <div class="left-block col-2 p-0">
+                    <p class="blur">Bộ lọc sản phẩm</p>
+                    <div class="type-identifier">
+                        <h3>Loại sản phẩm</h3>
+                        <div class="d-flex pt-3">
+                            <input type="checkbox">
+                            <label class="m-0 pl-2 blur">Trà xanh Thái nguyên</label>
+                        </div>
+                        <div class="d-flex pt-2">
+                            <input type="checkbox">
+                            <label class="m-0 pl-2 blur">Trà Ôolong</label>
+                        </div>
+                        <div class="d-flex pt-2">
+                            <input type="checkbox">
+                            <label class="m-0 pl-2 blur">Trà Shan Tuyết</label>
+                        </div>
+                        <div class="d-flex pt-2">
+                            <input type="checkbox">
+                            <label class="m-0 pl-2 blur">Trà nhài</label>
+                        </div>
+                        <div class="d-flex pt-2">
+                            <input type="checkbox">
+                            <label class="m-0 pl-2 blur">Trà thảo dược</label>
+                        </div>
+                        <div class="d-flex pt-2">
+                            <input type="checkbox">
+                            <label class="m-0 pl-2 blur">Dụng cụ pha trà</label>
+                        </div>
+                        <div class="d-flex pt-2 pb-5">
+                            <input type="checkbox">
+                            <label class="m-0 pl-2 blur">Nước pha trà</label>
+                        </div>
+                    </div>  
+                    <div class="price-identifier">
+                        <h3>Giá thành</h3>
+                        <input class="slide" type="range" min="50.000" max="200.000">
+                        <p class="blur">Từ 50.000 đến 200.000</p>
+                    </div>
+                    <div class="brand-identifier">
+                        <h3>Thương hiệu</h3>
+                        <div class="d-flex pt-2">
+                            <input type="checkbox">
+                            <label class="m-0 pl-2 blur">Trà Tân Cương xanh</label>
+                        </div>
+                        <div class="d-flex pt-2">
+                            <input type="checkbox">
+                            <label class="m-0 pl-2 blur">Trà Sen Tây Hồ</label>
+                        </div>
+                        <div class="d-flex pt-2 pb-5">
+                            <input type="checkbox">
+                            <label class="m-0 pl-2 blur">Trà Lộc Thân</label>
+                    </div>
+                </div>
+                </div>
+                <div class="right-block col-9 p-0 ">
+                    <div class="arrange">
+                        <select class="p-1">
+                            <option value="1">Thứ tự mặc định</option>
+                            <option value="2">Giá thấp đến cao</option>
+                            <option value="3">Giá cao đến thấp</option>
+                            <option value="4">Xếp theo đánh giá</option>
+                            <option value="5">Xếp theo phổ biến</option>
+                        </select>
+                    </div>
+                    <div class="list-products d-flex justify-content-between flex-wrap">
+                        <div class="product position-relative pt-5">
+                            <div class="rating"><img src="../images/Chitietsanpham/rating.png" alt=""></div>
+                            <div class="badges position-absolute">
+                                <span>New</span>
+                            </div>
+                            <div>
+                                <img src="../images/Chitietsanpham/product02.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="text-center">Trà Búp</h4>
+                                    <div class="product-information d-flex justify-content-center">
+                                    <div class="price d-flex">
+                                    <h4>70,000</h4><span class="currency-unit">VND</span>
+                                    </div>
+                                    <select class="pl-2" name="weight" id="weight">
+                                        <option value="100g">100g</option>
+                                        <option value="200g">200g</option>
+                                        <option value="500g">500g</option>
+                                        <option value="1kg">1kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product position-relative pt-5">
+                            <div class="rating"><img src="../images/Chitietsanpham/rating.png" alt=""></div>
+                            <div class="badges position-absolute">
+                                <span>New</span>
+                            </div>
+                            <div>
+                                <img src="../images/Chitietsanpham/product03.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="text-center">Trà Búp</h4>
+                                    <div class="product-information d-flex justify-content-center">
+                                    <div class="price d-flex">
+                                    <h4>70,000</h4><span class="currency-unit">VND</span>
+                                    </div>
+                                    <select class="pl-2" name="weight" id="weight">
+                                        <option value="100g">100g</option>
+                                        <option value="200g">200g</option>
+                                        <option value="500g">500g</option>
+                                        <option value="1kg">1kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product position-relative pt-5">
+                            <div class="rating"><img src="../images/Chitietsanpham/rating.png" alt=""></div>
+                            <div class="badges position-absolute">
+                                <span>New</span>
+                            </div>
+                            <div>
+                                <img src="../images/Chitietsanpham/product04.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="text-center">Trà Búp</h4>
+                                    <div class="product-information d-flex justify-content-center">
+                                    <div class="price d-flex">
+                                    <h4>70,000</h4><span class="currency-unit">VND</span>
+                                    </div>
+                                    <select class="pl-2" name="weight" id="weight">
+                                        <option value="100g">100g</option>
+                                        <option value="200g">200g</option>
+                                        <option value="500g">500g</option>
+                                        <option value="1kg">1kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product position-relative pt-5">
+                            <div class="rating"><img src="../images/Chitietsanpham/rating.png" alt=""></div>
+                            <div class="badges position-absolute">
+                                <span>New</span>
+                            </div>
+                            <div>
+                                <img src="../images/Chitietsanpham/product02.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="text-center">Trà Búp</h4>
+                                    <div class="product-information d-flex justify-content-center">
+                                    <div class="price d-flex">
+                                    <h4>70,000</h4><span class="currency-unit">VND</span>
+                                    </div>
+                                    <select class="pl-2" name="weight" id="weight">
+                                        <option value="100g">100g</option>
+                                        <option value="200g">200g</option>
+                                        <option value="500g">500g</option>
+                                        <option value="1kg">1kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product position-relative pt-5">
+                            <div class="rating"><img src="../images/Chitietsanpham/rating.png" alt=""></div>
+                            <div class="badges position-absolute">
+                                <span>New</span>
+                            </div>
+                            <div>
+                                <img src="../images/Chitietsanpham/product03.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="text-center">Trà Búp</h4>
+                                    <div class="product-information d-flex justify-content-center">
+                                    <div class="price d-flex">
+                                    <h4>70,000</h4><span class="currency-unit">VND</span>
+                                    </div>
+                                    <select class="pl-2" name="weight" id="weight">
+                                        <option value="100g">100g</option>
+                                        <option value="200g">200g</option>
+                                        <option value="500g">500g</option>
+                                        <option value="1kg">1kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product position-relative pt-5">
+                            <div class="rating"><img src="../images/Chitietsanpham/rating.png" alt=""></div>
+                            <div class="badges position-absolute">
+                                <span>New</span>
+                            </div>
+                            <div>
+                                <img src="../images/Chitietsanpham/product04.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="text-center">Trà Búp</h4>
+                                    <div class="product-information d-flex justify-content-center">
+                                    <div class="price d-flex">
+                                    <h4>70,000</h4><span class="currency-unit">VND</span>
+                                    </div>
+                                    <select class="pl-2" name="weight" id="weight">
+                                        <option value="100g">100g</option>
+                                        <option value="200g">200g</option>
+                                        <option value="500g">500g</option>
+                                        <option value="1kg">1kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product position-relative pt-5">
+                            <div class="rating"><img src="../images/Chitietsanpham/rating.png" alt=""></div>
+                            <div class="badges position-absolute">
+                                <span>New</span>
+                            </div>
+                            <div>
+                                <img src="../images/Chitietsanpham/product02.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="text-center">Trà Búp</h4>
+                                    <div class="product-information d-flex justify-content-center">
+                                    <div class="price d-flex">
+                                    <h4>70,000</h4><span class="currency-unit">VND</span>
+                                    </div>
+                                    <select class="pl-2" name="weight" id="weight">
+                                        <option value="100g">100g</option>
+                                        <option value="200g">200g</option>
+                                        <option value="500g">500g</option>
+                                        <option value="1kg">1kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product position-relative pt-5">
+                            <div class="rating"><img src="../images/Chitietsanpham/rating.png" alt=""></div>
+                            <div class="badges position-absolute">
+                                <span>New</span>
+                            </div>
+                            <div>
+                                <img src="../images/Chitietsanpham/product03.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="text-center">Trà Búp</h4>
+                                    <div class="product-information d-flex justify-content-center">
+                                    <div class="price d-flex">
+                                    <h4>70,000</h4><span class="currency-unit">VND</span>
+                                    </div>
+                                    <select class="pl-2" name="weight" id="weight">
+                                        <option value="100g">100g</option>
+                                        <option value="200g">200g</option>
+                                        <option value="500g">500g</option>
+                                        <option value="1kg">1kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product position-relative pt-5">
+                            <div class="rating"><img src="../images/Chitietsanpham/rating.png" alt=""></div>
+                            <div class="badges position-absolute">
+                                <span>New</span>
+                            </div>
+                            <div>
+                                <img src="../images/Chitietsanpham/product04.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="text-center">Trà Búp</h4>
+                                    <div class="product-information d-flex justify-content-center">
+                                    <div class="price d-flex">
+                                    <h4>70,000</h4><span class="currency-unit">VND</span>
+                                    </div>
+                                    <select class="pl-2" name="weight" id="weight">
+                                        <option value="100g">100g</option>
+                                        <option value="200g">200g</option>
+                                        <option value="500g">500g</option>
+                                        <option value="1kg">1kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product position-relative pt-5">
+                            <div class="rating"><img src="../images/Chitietsanpham/rating.png" alt=""></div>
+                            <div class="badges position-absolute">
+                                <span>New</span>
+                            </div>
+                            <div>
+                                <img src="../images/Chitietsanpham/product02.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="text-center">Trà Búp</h4>
+                                    <div class="product-information d-flex justify-content-center">
+                                    <div class="price d-flex">
+                                    <h4>70,000</h4><span class="currency-unit">VND</span>
+                                    </div>
+                                    <select class="pl-2" name="weight" id="weight">
+                                        <option value="100g">100g</option>
+                                        <option value="200g">200g</option>
+                                        <option value="500g">500g</option>
+                                        <option value="1kg">1kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product position-relative pt-5">
+                            <div class="rating"><img src="../images/Chitietsanpham/rating.png" alt=""></div>
+                            <div class="badges position-absolute">
+                                <span>New</span>
+                            </div>
+                            <div>
+                                <img src="../images/Chitietsanpham/product03.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="text-center">Trà Búp</h4>
+                                    <div class="product-information d-flex justify-content-center">
+                                    <div class="price d-flex">
+                                    <h4>70,000</h4><span class="currency-unit">VND</span>
+                                    </div>
+                                    <select class="pl-2" name="weight" id="weight">
+                                        <option value="100g">100g</option>
+                                        <option value="200g">200g</option>
+                                        <option value="500g">500g</option>
+                                        <option value="1kg">1kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product position-relative pt-5">
+                            <div class="rating"><img src="../images/Chitietsanpham/rating.png" alt=""></div>
+                            <div class="badges position-absolute">
+                                <span>New</span>
+                            </div>
+                            <div>
+                                <img src="../images/Chitietsanpham/product04.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h4 class="text-center">Trà Búp</h4>
+                                    <div class="product-information d-flex justify-content-center">
+                                    <div class="price d-flex">
+                                    <h4>70,000</h4><span class="currency-unit">VND</span>
+                                    </div>
+                                    <select class="pl-2" name="weight" id="weight">
+                                        <option value="100g">100g</option>
+                                        <option value="200g">200g</option>
+                                        <option value="500g">500g</option>
+                                        <option value="1kg">1kg</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-pages d-flex justify-content-between m-auto pb-5 pt-5">
+                        <div class="pages text-center">1</div>
+                        <div class="pages text-center">2</div>
+                        <div class="pages text-center">3</div>
+                        <div class="pages text-center">4</div>
+                        <div class="pages text-center">></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="col-8 m-auto d-flex justify-content-between align-items-center ">
+            <div class="information">
+                <div>
+                    <img src="../images/Layout/Logo.png" alt="logo">
+                </div>
+                <div class="detail pt-3">
+                    <div>
+                    <a href="">0963210895</a>
+                    </div>
+                    <div>
+                    <a href="">trungtien112003@gmail.com</a>
+                    </div>
+                    <div>
+                    <a href="">C12,TT Kim Liên, Đống Đa, Hà Nội</a>
+                    </div>
+                </div>
+            </div>
+            <div class="information">
+                <div>
+                    <h4>VỀ CHÚNG TÔI</h4>
+                </div>
+                <div class="detail pt-3">
+                    <div>
+                    <a href="">Giới thiệu</a>
+                    </div>
+                    <div>
+                    <a href="">Sản phẩm</a>
+                    </div>
+                    <div>
+                    <a href="">Tin tức</a>
+                    </div>
+                </div>
+            </div>
+            <div class="information">
+                <div>
+                    <h4>LIÊN HỆ</h4>
+                </div>
+                <div class="detail">
+                    <div class="d-flex ">
+                        <a class="pr-2" href="">
+                        <i class="fa-brands icon fa-youtube"></i>
+                        </a>
+                        <a class="pr-2" href="">
+                            <i class="fa-brands icon fa-instagram"></i>
+                        </a>
+                        <a class="pr-2" href="https://www.facebook.com/trung.tien.52090/">
+                            <i class="fa-brands icon fa-square-facebook"></i>
+                        </a>
+                    </div>
+                    <div>
+                    <a href="">Copyright 2010-2020</a>
+                    </div>
+                    <div>
+                    <a href="">EC.All rights reserved</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

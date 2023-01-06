@@ -1,0 +1,128 @@
+Giới thiệu
+.title{
+  top: 110%;
+  left: 20%;
+}
+.title img{
+  width: 20rem;
+}
+.post img{
+  height: 16.67rem;
+}
+@font-face {
+  font-family: 'SVNAthena';
+  src: url('./fonts/SVN-Athena_0.ttf');
+}
+.post p{
+  font-family: 'SVNAthena';
+  font-size: 1.5rem;
+  color: #222;
+}
+.post h2{
+  font-family: 'SVNAthena';
+  font-size: 2.67rem;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Sản phẩm */
+.title{
+  top: 30%;
+  left: 50%
+}
+.product{
+  width: 26%;
+}
+.badges{
+  top: 14%;
+  right: 5%;
+  background-color: #86e186;
+  padding: 0.05rem 0.5rem;
+}
+.rating{
+  width: 50%;
+  padding-bottom: 1rem;
+}
+.currency-unit{
+  padding-top: 0.4rem;
+}
+#weight, #weight:focus-visible{
+  border: 0px;
+  color: rgb(109, 102, 102); 
+}
+.arrange{
+  padding-left: 79%;
+}
+.list-pages{
+  width: 20%;
+}
+.pages{
+  border: 2px solid #000;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.pages:active {
+  border: 2px solid rgb(46, 209, 68);
+}
+.arrange{
+  opacity: 60%;
+  color: rgb(104, 98, 98);
+}
+
+/* Tin tức */
+.title{
+  font-size: 2.67rem;
+}
+.post{
+  width: 30%;
+}
+.post-title{
+  font-size: 1.5rem;
+  color: rgb(42, 105, 33);
+}
+.content{
+  background-image: 
+  url('./images/Layout/background.png');
+  background-repeat: no-repeat;
+  background-size:auto;
+}
+.list-pages{
+  width: 12%;
+}
+.pages{
+  border: 2px solid #000;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.pages:active {
+  border: 2px solid rgb(46, 209, 68);
+}
+
+/* Liên hệ */
+.form h1{
+  font-size: 1.67rem;
+  font-family: 'SVNAthena';
+}
+.infor{
+  border: 2px solid rgb(39, 128, 39);
+  padding: 3pt;
+  height: 3rem;
+  width: 29.5rem;
+}
+.btn{
+  background-color: rgb(39, 128, 39);
+  height: 3rem;
+  width: 7rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.content{
+  background-image: url(./images/Lienhe/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20%;
+}
+.form{
+  padding-left: 60%;
+  padding-top: 10%;
+}

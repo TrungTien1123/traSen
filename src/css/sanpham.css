@@ -1,0 +1,42 @@
+.title{
+    top: 30%;
+    left: 50%
+}
+.product{
+    width: 26%;
+}
+.badges{
+    top: 14%;
+    right: 5%;
+    background-color: #86e186;
+    padding: 0.05rem 0.5rem;
+}
+.rating{
+    width: 50%;
+    padding-bottom: 1rem;
+}
+.currency-unit{
+    padding-top: 0.4rem;
+}
+#weight, #weight:focus-visible{
+    border: 0px;
+    color: rgb(109, 102, 102); 
+}
+.arrange{
+    padding-left: 79%;
+}
+.list-pages{
+    width: 20%;
+}
+.pages{
+    border: 2px solid #000;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.pages:active {
+    border: 2px solid rgb(46, 209, 68);
+}
+.arrange{
+    opacity: 60%;
+    color: rgb(104, 98, 98);
+}
