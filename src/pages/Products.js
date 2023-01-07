@@ -3,6 +3,7 @@ import ProductLeft from "./Component/productLeft";
 import ProductRight from "./Component/productRight";
 import '../css/sanpham.css'
 import '../css/Sanpham-Responsive.css'
+import Cart from "./Component/Cart";
 
 function Products(){
     return(
@@ -21,12 +22,13 @@ function Products(){
                     <div class="main-content d-flex justify-content-between">
                          <ProductLeft/>
                          <ProductRight/>   
-                        
                     </div>
                 </div>
             </section>
+            <Cart/>
         </div>
     )
 }
+
 
 export default Products;
