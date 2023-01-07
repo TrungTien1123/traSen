@@ -1,11 +1,11 @@
 import {connect} from 'react-redux'
-import { toggleCart } from '../../reduxModules';
+import { toggleCart,addToCart } from '../../reduxModules';
 import rating from "../../images/Chitietsanpham/rating.png"
-import product02 from "../../images/Chitietsanpham/product02.png"
+
 
 
 function productDetails(props){
-    let {productItem, toggleCart}=props;
+    let {productItem, toggleCart,addToCart}=props;
     return(
         <div class="product position-relative pt-5">
             <div class="rating">
@@ -15,10 +15,10 @@ function productDetails(props){
                 <span>New</span>
             </div>
             <div>
-                <img src={product02} alt=""/>
+                <img src={productItem.image} alt=""/>
             </div>
             <div class="detail">
-                <button onClick={()=>toggleCart(true)}>Thêm vào giỏ</button>
+                <button onClick={()=>addToCart(productItem)}>Thêm vào giỏ</button>
                 <h4 class="text-center">{productItem.name}</h4>
                 <div class="product-information d-flex justify-content-center">
                     <div class="price d-flex">
@@ -36,5 +36,5 @@ function productDetails(props){
         
     )
 }
-const mapDispatchToProps = {toggleCart}
+const mapDispatchToProps = {toggleCart,addToCart}
 export default connect(null,mapDispatchToProps)(productDetails);

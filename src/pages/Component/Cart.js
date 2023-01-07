@@ -5,7 +5,11 @@ import { toggleCart } from "../../reduxModules"
 
 
 function Cart(props){
-    let {isDisplayCart, toggleCart}=props
+    let {isDisplayCart, toggleCart, cart}=props
+    let totalCost=0;
+    for(let i=0;i<cart.length;i++){
+        totalCost += cart[i].price*cart[i].quantity 
+    }
     return(
         <div>
             {
@@ -19,12 +23,14 @@ function Cart(props){
                     </button>
                 </div>
                 <div className="miniCart-body">
-                    <CartItem/>
+                    {
+                        cart.map(addedItem => <CartItem product={addedItem}/>)
+                    }
                 </div>
                 <div className="miniCart-footer">
                     <div className="miniCart-total">
                         <span className="miniCart-text">Thành tiền:</span>
-                        <span className="miniCart-price">2.039.000 ₫</span>
+                        <span className="miniCart-price">{totalCost} ₫</span>
                     </div>
                     <button>
                         <span>THANH TOÁN NGAY</span>
@@ -42,6 +48,6 @@ function Cart(props){
     )
 }
 
-const mapStateToProps = state => ({isDisplayCart:state.isDisplayCart});
+const mapStateToProps = state => ({isDisplayCart:state.isDisplayCart, cart:state.cart});
 const mapDispatchToProps = {toggleCart}
 export default connect(mapStateToProps,mapDispatchToProps)(Cart);
